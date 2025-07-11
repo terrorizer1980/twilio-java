@@ -129,7 +129,7 @@
     </profile>
   </profiles>
   <properties>
-    <jackson.version>2.12.1</jackson.version>
+    <jackson.version>2.15.0</jackson.version>
     <jjwt.version>0.11.2</jjwt.version>
     <skip.tests>false</skip.tests>
     <dependency.skip>false</dependency.skip>
@@ -380,7 +380,7 @@
             </goals>
             <configuration>
               <rules>
-                <dependencyConvergence></dependencyConvergence>
+                <dependencyConvergence/>
               </rules>
             </configuration>
           </execution>
